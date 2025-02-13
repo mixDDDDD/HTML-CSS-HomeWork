@@ -5,40 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registration</title>
   </head>
-  <thead>
-    <h1>Регистрация</h1>
-    <article>
-      Уже есть аккаунт?
-      <a href="#">Войти</a>
-    </article>
-  </thead>
-  <br />
-  <body>
-    <section>
-      <form action="register">
-        <label for="name">Моя компания</label>
-        <div>
-          <input type="firstname" name="firstname" placeholder="Имя" required />
-          <input
-            type="lastname"
-            name="lastname"
-            placeholder="Фамилия"
-            required
-          />
-        </div>
-        <br />
-        <div>
-          <input type="email" name="email" placeholder="E-mail" required />
-        </div>
-        <br />
-        <button type="submit">Зарегистрироваться</button>
-        <div>
-          <input type="checkbox" name="terms" /> Я прочитал и принимаю
-          <a href="#" style="text-decoration: none" _blank
-            >Условия использования</a
-          >
-        </div>
-      </form>
-    </section>
-  </body>
+  <form action="register">
+    <div>
+      <h1>Регистрация</h1>
+      <p>Уже есть аккаунт?<a href="#">Войти</a></p>
+    </div>
+    <div>
+      <input
+        for="text"
+        placeholder="Моя компания"
+        name="company"
+        id="company"
+      />
+      <div>
+        <input
+          type="text"
+          placeholder="Фамилия"
+          id="surname"
+          name="surname_name"
+        />
+        <input type="text" placeholder="Имя" id="firstname" name="first_name" />
+      </div>
+      <input type="email" name="email" placeholder="E-mail" id="email" />
+      <button type="submit">Зарегистрироваться</button>
+      <div>
+        <label for="agreement"></label>
+        <input type="checkbox" name="agreement" id="agreement" />
+        Я прочитал и принимаю <a href="#" _blank> Условия использования </a>
+      </div>
+    </div>
+  </form>
 </html>
