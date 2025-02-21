@@ -4,35 +4,81 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registration</title>
+    <link rel="stylesheet" href="../Register/2-form/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <form action="register">
-    <div>
-      <h1>Регистрация</h1>
-      <p>Уже есть аккаунт?<a href="#">Войти</a></p>
-    </div>
-    <div>
-      <input
-        for="text"
-        placeholder="Моя компания"
-        name="company"
-        id="company"
-      />
-      <div>
-        <input
-          type="text"
-          placeholder="Фамилия"
-          id="surname"
-          name="surname_name"
-        />
-        <input type="text" placeholder="Имя" id="firstname" name="first_name" />
-      </div>
-      <input type="email" name="email" placeholder="E-mail" id="email" />
-      <button type="submit">Зарегистрироваться</button>
-      <div>
-        <label for="agreement"></label>
-        <input type="checkbox" name="agreement" id="agreement" />
-        Я прочитал и принимаю <a href="#" _blank> Условия использования </a>
-      </div>
-    </div>
-  </form>
+  <body>
+    <main>
+      <form action="register">
+        <div>
+          <h1>Регистрация</h1>
+        </div>
+        <div class="title">
+          <p>Уже есть аккаунт?<a href="#">Войти</a></p>
+        </div>
+        <section class="section">
+          <div class="form">
+            <input
+              type="text"
+              placeholder="Моя компания"
+              name="company"
+              id="company"
+              class="company"
+            />
+            <div class="name">
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  placeholder="Имя"
+                  id="firstname"
+                  name="first_name"
+                  class="firstname"
+                />
+              </div>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  placeholder="Фамилия"
+                  id="surname"
+                  name="surname_name"
+                  class="surname"
+                />
+              </div>
+            </div>
+            <input
+              type="email"
+              name="email"
+              placeholder="E-mail"
+              id="email"
+              class="email"
+            />
+            <div class="button">
+              <img src="../images/Arrow 1.svg" alt="Указательная стрелка" />
+              <button type="submit">Зарегистрироваться</button>
+            </div>
+            <div>
+              <label for="agreement" class="agreement">
+                <input type="checkbox" name="agreement" id="agreement" />
+                <span></span>
+                Я прочитал и принимаю<a href="#" _blank>
+                  Условия использования
+                </a>
+              </label>
+            </div>
+          </div>
+        </section>
+      </form>
+    </main>
+  </body>
 </html>
