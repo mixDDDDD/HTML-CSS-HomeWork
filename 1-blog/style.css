@@ -101,6 +101,9 @@ h1 {
 
 .logo {
     font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
 }
 
 .logo__img {
@@ -108,7 +111,6 @@ h1 {
     background: #4b5563;
     padding: 6px 12px;
     box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.15);
-    margin-right: 11px;
 }
 
 .conteiner {
