@@ -1,0 +1,60 @@
+:root {
+    --color-primary: #fff;
+    --color-sea: #357efe;
+    --color-tree: #1abc9c;
+    --color-sun: #ffc736;
+    --color-footer: #1a1d25;
+
+    --color-text-stroke: #4e5d7c;
+    --color-text-dark: #000;
+    --color-text-light-dark: rgba(78, 93, 124, 0.5);
+    --color-text-almost-light: rgba(255, 255, 255, 0.6);
+    --color-text-light: rgba(255, 255, 255, 0.8);
+    --color-hr-dark: rgba(78, 93, 124, 0.08);
+    --color-hr-light: rgba(255, 255, 255, 0.08);
+
+    --color-button-light-hover: #fffbfb;
+    --color-button-sea-hover: #2398f8;  
+    
+    --border-8: 8px;
+    --border-16: 16px;
+    --border-34: 34px;;
+    --border-47: 47px;
+
+    --layout-width: 1543px;
+    --layout_width-secondary: 1392px;
+    --layout-width-tarrifs: 1204px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    background: var(--color-primary);
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+
+hr {
+    margin: 0;
+    height: 1px;
+    opacity: 0.3;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
