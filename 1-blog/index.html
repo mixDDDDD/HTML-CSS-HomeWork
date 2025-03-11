@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../Blog/1-Blog/style.css" />
+    <link rel="stylesheet" href="../1-blog/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,10 +15,7 @@
   <body>
     <header>
       <div class="conteiner">
-        <div class="logo">
-          <span>В</span>
-        </div>
-        <div class="blog">Мой блог</div>
+        <a class="logo"><span class="logo__img">В</span>Мой блог</a>
         <nav>
           <ul>
             <li><a href="#">HTML и CSS</a></li>
@@ -27,10 +24,10 @@
           </ul>
         </nav>
         <form action="#">
-          <div class="search">
-            <img src="../images/search.svg" alt="logo поиска" />
-            <input type="text" id="search" name="search" placeholder="Поиск" />
-          </div>
+          <label for="search">
+            <img src="../0-images/search.svg" alt="logo поиска" />
+          </label>
+          <input type="search" id="search" name="search" placeholder="Поиск" />
         </form>
       </div>
     </header>
@@ -46,7 +43,7 @@
           потребителей
         </h1>
         <div class="blockauthor">
-          <img src="../images/author.png" alt="Изображение автора" />
+          <img src="../0-images/author.png" alt="Изображение автора" />
           <div>
             <p class="author">Наталья Васильева</p>
             <p class="role">Разработчик</p>
@@ -56,7 +53,7 @@
       <article>
         <img
           class="img"
-          src="../images/iMac.png"
+          src="../0-images/iMac.png"
           alt="Изображение iMac на ярком фоне"
         />
 
