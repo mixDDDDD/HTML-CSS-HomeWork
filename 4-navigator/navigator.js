@@ -10,3 +10,4 @@ function calculateDistance(positionLat, positionLong, addressLat, addressLong) {
 
 const distance = calculateDistance(positionLat, positionLong, addressLat, addressLong);
 console.log(distance.toFixed(2));
+ 
