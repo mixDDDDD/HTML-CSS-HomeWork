@@ -197,7 +197,7 @@ label a {
     display: none;
 }
 
-.agreement input:checked+span {
+.agreement input:checked + span {
     background-color: #089fe0;
 }
 
