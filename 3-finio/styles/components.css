@@ -403,25 +403,25 @@
     padding: 12px 32px;
 }
 
-.hero__left_image {
+.hero__left-image {
     margin: 40px 0 0 0;
 }
 
-.button-sea {
+.button_sea {
     color: var(--color-primary);
     background: var(--color-sea)
 }
 
-.button-sea:hover {
+.button_sea:hover {
     background: var(--color-button-sea-hover)
 }
 
-.button-light {
+.button_light {
     color: var(--color-sea);
     background: var(--color-primary);
 }
 
-.button-light:hover {
+.button_light:hover {
     background: var(--color-button-light-hover)
 }
 
